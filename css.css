@@ -1,0 +1,97 @@
+/*Primary Colors
+- Pale blue: hsl(225, 100%, 94%)
+- Bright blue: hsl(245, 75%, 52%) 
+
+Secondary Colors 
+- Very pale blue: hsl(225, 100%, 98%)
+- Desaturated blue: hsl(224, 23%, 55%)
+- Dark blue: hsl(223, 47%, 23%)*/
+
+:root {
+  --pale-blue: hsl(225, 100%, 94%);
+  --bright-blue: hsl(245, 75%, 52%);
+  --very-pale-blue: hsl(225, 100%, 94%);
+  --desaturated-blue: hsl(245, 75%, 52%);
+  --dark-blue: hsl(223, 47%, 23%);
+}
+
+body {
+  margin: 15px;
+
+  /* display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: nowrap; */
+  font-family: "Red Hat Display", sans-serif;
+}
+
+.card {
+  margin: auto;
+  width: 300px;
+  height: 450px;
+  background-color: white;
+  border-radius: 15px;
+  /* text-align: center; */
+}
+
+.hero {
+  width: 100%;
+  border-top-right-radius: 15px;
+  border-top-left-radius: 15px;
+}
+
+.summary {
+  margin: auto;
+  text-align: center;
+}
+ h1, .plan {
+     font-weight: bold;
+ }
+.description {
+    width: 80%;
+    margin: auto;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.plan, .price {
+    margin: 4px;
+}
+
+p {
+  font-size: 16px;
+}
+
+.pay {
+    margin:auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;  
+}
+
+button{ 
+    width: 85%; 
+    height: 35px;
+    margin: auto; 
+    font-weight: 700;
+}
+.pay-button{
+background-color: var(--bright-blue);
+color: var(--pale-blue);
+}
+
+.cancel-button {
+
+}
+@media (max-width: 375px) {
+  body {
+
+    background-color: var(--pale-blue);
+  }
+
+  section {
+    width: 90%;
+  }
+}
