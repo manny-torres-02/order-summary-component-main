@@ -83,12 +83,14 @@ p {
 }
 
 a {
+  margin:auto;
   color: blue;
   text-decoration: underline;
 }
 
 .pricing {
-text-align: right;
+padding-left:0px; 
+text-align: left;
 }
 
 .plan,
