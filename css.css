@@ -16,7 +16,7 @@ Secondary Colors
 }
 
 body {
-  height: 100vh;
+  /* height: 100vh; */
   margin: 10%;
   background-image: url("images/pattern-background-desktop.svg");
   background-repeat: no-repeat;
@@ -36,7 +36,7 @@ body {
 }
 
 .card {
-  margin: auto;
+  /* margin: auto; */
   width: 350px;
   height: 550px;
   background-color: white;
