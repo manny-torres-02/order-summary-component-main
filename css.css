@@ -86,6 +86,11 @@ a {
   color: blue;
   text-decoration: underline;
 }
+
+.pricing {
+text-align: right;
+}
+
 .plan,
 .price {
   margin: 4px;
