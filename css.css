@@ -75,7 +75,7 @@ p {
   padding:10px;
   margin: auto;
   display: flex;
-  justify-content: space-around;
+  /* justify-content: space-around; */
   align-items: center;
 
   border-radius: 15px;
@@ -89,7 +89,7 @@ a {
 }
 
 .pricing {
-padding-left:0px; 
+padding-left:10px; 
 text-align: left;
 }
 
